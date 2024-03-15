@@ -1,10 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图片和文字</title>
+    <style>
+        body {
+            content:"";
+            position:absolute;
+            width:120%;height:120%;
+            top:50%;left:50%;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            background-image: url("imgs/kubo.jpg");
+            background-size:100%;
+
+        }
+        .container {
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
-
+<div class="container">
+    <img src="file:///C:/Users/5210a/Desktop/web_hw01/imgs/kubo.jpg" alt="图片">
+    <p>这里是一些文字内容。</p>
+</div>
 </body>
 </html>
