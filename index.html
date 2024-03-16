@@ -3,40 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>图片和文字</title>
+    <title>木棉花等待網站</title>
     <style>
         body {
-            content:"";
-            position:absolute;
-            width:120%;height:120%;
-            top:50%;left:50%;
-            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            height: 100vh;
+            background-color: #f0f0f0;
+            background-size: 100%;
+            overflow: hidden;
+        }
+
+        .container {
+            text-align: center;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background-color: #f0f0f0;
-            background-image: url("imgs/kubo.jpg");
-            background-size:100%;
+        }
+
+
+        .container img {
+            width: 100%;
+            height: 100%;
 
         }
-        .container {
+
+
+        .icon img{
+            height: 15%;
+            width: auto;
+            position: absolute;
+            top: 90%;
+            left: 5%;
+            transform: translate(-50%, -50%);
             text-align: center;
         }
-        img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 10px;
-            margin-bottom: 20px;
+
+        .youtube i{
+            font-size: xx-large;
+            position: absolute;
+            top: 90%;
+            left:11%;
+            transform: translate(-50%, -50%);
+            color: #f0f0f0;
+            text-align: center;
         }
+
+        .ig i{
+            font-size: xx-large;
+            position: absolute;
+            top: 84.5%;
+            left:11%;
+            transform: translate(-50%, -50%);
+            color: #f0f0f0;
+            text-align: center;
+        }
+
+        .facebook i{
+            font-size: xx-large;
+            position: absolute;
+            top: 95.5%;
+            left:11%;
+            transform: translate(-50%, -50%);
+            color: #f0f0f0;
+            text-align: center;
+        }
+
+        .txt {
+            position: absolute;
+            top: 50%;
+            left: 15%;
+            transform: translate(-50%, -50%);
+            color: #f0f0f0;
+            font-size: xx-large;
+            text-align: center;
+        }
+
     </style>
 </head>
 <body>
 <div class="container">
-    <img src="file:///C:/Users/5210a/Desktop/web_hw01/imgs/kubo.jpg" alt="图片">
-    <p>这里是一些文字内容。</p>
+    <img src="imgs/sit.jpg" alt="sit">
 </div>
+
+<div class="icon">
+    <a href="https://www.e-muse.com.tw/">
+        <img src="imgs/muse.png" alt="icon">
+    </a>
+</div>
+
+<div class="ig">
+    <a href="https://www.instagram.com/museacg?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+        <i class="fa-brands fa-instagram"></i>
+    </a>
+    <script src="https://kit.fontawesome.com/5b4bd93e6a.js" crossorigin="anonymous"></script>
+</div>
+
+<div class="youtube">
+    <a href="https://www.youtube.com/@MuseTW">
+        <i class="fa-brands fa-youtube"></i>
+    </a>
+    <script src="https://kit.fontawesome.com/5b4bd93e6a.js" crossorigin="anonymous"></script>
+</div>
+
+<div class="facebook">
+    <a href="https://www.facebook.com/emuse.com.tw/?locale=zh_TW">
+        <i class="fa-brands fa-facebook"></i>
+    </a>
+    <script src="https://kit.fontawesome.com/5b4bd93e6a.js" crossorigin="anonymous"></script>
+</div>
+
+<div class="txt">
+    <p>
+        <strong>目前在線人數過多<br/>
+        各位坐一下耐心等待</strong>
+    </p>
+</div>
+
 </body>
 </html>
